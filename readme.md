@@ -1,3 +1,8 @@
+### Note
+
+This is a fork containing the necessary fixes for the CPU portion of the plugin to work correctly on macOS.
+`coreutils` must be installed for it to work properly. If you use homebrew, it can be installed with the following command:
+`brew install coreutils`
 
 Tmux sysstat plugin
 ===================
@@ -19,7 +24,7 @@ Features
 - OSX, Linux support
 - [ ] **TODO:** network I/O metric support
 
-Tested on: OS X El Capitan 10.11.5, Ubuntu 14 LTS, CentOS 7, FreeBSD 11.1.
+Tested on: OS X El Capitan 10.14, Ubuntu 14 LTS, CentOS 7, FreeBSD 11.1.
 
 
 Installation
